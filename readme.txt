@@ -12,7 +12,7 @@ drinkShop.sql
 在 Drinkshop.core/application.json可以編輯資料庫連接
 
 設定檔：
-Drinkshop.core/application.json
+Drinkshop.core/appsettings.json
 Drinkshop_view/config/config.json
 架起服務後需要編輯端點位置，否則無法使用。
 
