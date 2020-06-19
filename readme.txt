@@ -9,7 +9,7 @@ LinOrders.json
 將以下資料庫指令檔匯入資料庫：
 drinkShop.sql
 
-在 Drinkshop.core/application.json可以編輯資料庫連接
+在 Drinkshop.core/appsettings.json可以編輯資料庫連接
 
 設定檔：
 Drinkshop.core/appsettings.json
