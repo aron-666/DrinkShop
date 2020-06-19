@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+@model DrinkShop.core.ViewModels.ResponseItems;
+
+<style>
+    .img {
+        float: left;
+        padding: 5px;
+    }
+</style>
+<h1>付款</h1>
+
+
+<h3>總金額:@Model.Total</h3>
+<h4>建立時間：@ViewBag.time</h4>
+<br />
+<h3>訂單內容</h3>
+
+<table class="table table-bordered">
+    <tr>
+        <td style="text-align: center;">項目</td>
+        <td style="text-align: center;">數量</td>
+        <td style="text-align: center;">內容</td>
+        <td style="text-align: center;">金額</td>
+    </tr>
+    @{
+        foreach (var i in Model.Items)
+        {
+            <tr>
+                <td>@i.Name</td>
+                <td>@i.Count</td>
+                <td>@string.Format("{0}, {1}, {2}", i.Size, i.Sweetness, i.Ice)</td>
+                <td>@i.Price</td>
+            </tr>
+
+        }
+    }
+</table>
+
+
+<div class="img border">
+    <img src="~/images/craditcard.png" />
+</div>
+<div class="img border">
+    <img src="~/images/Linepay.png" />
+</div>
+<div class="img border" style="cursor: pointer;" onclick="window.location='Pay/TestPay?order=@ViewBag.order'">
+    <img src="~/images/testpay.png" />
+</div>
+
+<div style="clear:both;"></div>

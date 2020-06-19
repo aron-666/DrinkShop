@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewData["Title"] = "GetOrder";
+}
+
+<h1>GetOrder</h1>
+
+@model DrinkShop.core.ViewModels.ResponseItems
+
+<h3>總金額:@Model.Total</h3>
+
+<h4>建立時間：@ViewBag.time</h4>
+@{
+    if (ViewBag.payTime != null)
+    {
+        <h4>付款狀態：已付款</h4>
+        <h4>付款時間：@ViewBag.payTime</h4>
+    }
+    else
+    {
+        <h4>付款狀態：未付款</h4>
+    }
+}
+<br />
+<h3>訂單內容</h3>
+<table class="table table-bordered">
+    <tr>
+        <td style="text-align: center;">項目</td>
+        <td style="text-align: center;">數量</td>
+        <td style="text-align: center;">內容</td>
+        <td style="text-align: center;">金額</td>
+    </tr>
+    @{
+        foreach (var i in Model.Items)
+        {
+            <tr>
+                <td>@i.Name</td>
+                <td>@i.Count</td>
+                <td>@string.Format("{0}, {1}, {2}", i.Size, i.Sweetness, i.Ice)</td>
+                <td>@i.Price</td>
+            </tr>
+
+        }
+    }
+</table>

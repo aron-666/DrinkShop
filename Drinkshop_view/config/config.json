@@ -1,0 +1,16 @@
+{
+  "Port": 8888,
+  "Linebot": {
+    "channel_secret": "",
+    "token": ""
+  },
+  "LuisUrl": "請把'&query='拿掉",
+  "Pos": {
+    "Endpoint": "Pos Service的根目錄",
+    "api": {
+      "GetPrice": "/api/Pos/GetPrice",
+      "CreateOrder": "/api/Pos/CreateOrder"
+
+    }
+  }
+}

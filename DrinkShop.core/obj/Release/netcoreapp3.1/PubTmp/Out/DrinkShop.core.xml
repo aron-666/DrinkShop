@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DrinkShop.core</name>
+    </assembly>
+    <members>
+        <member name="M:DrinkShop.core.Controllers.PayController.Index(System.String)">
+            <summary>
+            付款
+            </summary>
+            <param name="order"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DrinkShop.core.Controllers.PayController.GetOrder(System.String)">
+            <summary>
+            取得訂單內容
+            </summary>
+            <param name="order"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DrinkShop.core.Controllers.PayController.TestPay(System.String)">
+            <summary>
+            測試用金流
+            </summary>
+            <param name="order"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DrinkShop.core.Controllers.PayController.Paid">
+            <summary>
+            已經付款過的頁面
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DrinkShop.core.Controllers.PosController.GetPrice(System.Collections.Generic.List{DrinkShop.core.ViewModels.Items})">
+            <summary>
+            取得各項估價
+            </summary>
+            <param name="items"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DrinkShop.core.Controllers.PosController.CreateOrder(DrinkShop.core.ViewModels.OrderItems)">
+            <summary>
+            新增訂單
+            </summary>
+            <param name="items"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

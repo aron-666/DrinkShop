@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrinkShop.core", "DrinkShop.core\DrinkShop.core.csproj", "{CCBAEB6C-48F0-41B7-B7F0-A25AF8BD65AD}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Drinkshop_view", "Drinkshop_view\Drinkshop_view.pyproj", "{428DC8BD-7EE6-42DB-879C-3AB7F9C21028}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCBAEB6C-48F0-41B7-B7F0-A25AF8BD65AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCBAEB6C-48F0-41B7-B7F0-A25AF8BD65AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCBAEB6C-48F0-41B7-B7F0-A25AF8BD65AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCBAEB6C-48F0-41B7-B7F0-A25AF8BD65AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{428DC8BD-7EE6-42DB-879C-3AB7F9C21028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{428DC8BD-7EE6-42DB-879C-3AB7F9C21028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{428DC8BD-7EE6-42DB-879C-3AB7F9C21028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{428DC8BD-7EE6-42DB-879C-3AB7F9C21028}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {536BA54A-8F39-4A95-9840-4A7F4D12ECE3}
+	EndGlobalSection
+EndGlobal
