@@ -2,6 +2,9 @@ Drinkshop.core 是一個簡易POS系統，由C#撰寫
 
 Drinkshop_view 串接Line bot/Luis Ai/Pos系統，由Python撰寫
 
+Luis設定檔：
+LinOrders.json
+
 資料庫使用mysql
 將以下資料庫指令檔匯入資料庫：
 drinkShop.sql
